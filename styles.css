@@ -1,0 +1,191 @@
+/* ===== ESTILO GENERAL ===== */
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: radial-gradient(circle at top, #2a2a2a, #0f0f0f);
+    color:#e6e6e6;
+    padding:25px;
+}
+
+/* ===== TITULOS ===== */
+
+h1,h2,h3{
+    color:#d4af37;
+    text-shadow:0 0 8px rgba(212,175,55,0.4);
+}
+
+/* ===== CONTENEDORES ===== */
+
+.panel{
+    background:#161616;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:15px;
+    margin-bottom:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.6);
+}
+
+/* ===== BOTONES ===== */
+
+button{
+    padding:10px 16px;
+    margin:6px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:all 0.25s ease;
+    background:#2a2a2a;
+    color:white;
+}
+
+/* Hover general */
+
+button:hover{
+    transform:translateY(-2px);
+    box-shadow:0 5px 10px rgba(0,0,0,0.5);
+}
+
+/* Botón conectar */
+
+.connect{
+    background:#3a3a3a;
+}
+
+.connect:hover{
+    background:#505050;
+}
+
+/* Conectado */
+
+.connected{
+    background:#1f8f4f;
+}
+
+.connected:hover{
+    background:#25a35a;
+}
+
+/* Error */
+
+.error{
+    background:#a52b2b;
+}
+
+.error:hover{
+    background:#c0392b;
+}
+
+/* ===== BOTONES DE ACCION ===== */
+
+.testRule{
+    background:#2c7be5;
+}
+
+.testRule:hover{
+    background:#3d8bfd;
+}
+
+.editRule{
+    background:#d4af37;
+    color:black;
+}
+
+.editRule:hover{
+    background:#f1c40f;
+}
+
+.deleteRule{
+    background:#b33939;
+}
+
+.deleteRule:hover{
+    background:#e55039;
+}
+
+/* ===== LOG ===== */
+
+#log{
+    background:#0a0a0a;
+    border:1px solid #333;
+    padding:12px;
+    height:180px;
+    overflow:auto;
+    border-radius:6px;
+    margin-top:15px;
+    font-size:12px;
+    font-family:monospace;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.8);
+}
+
+/* ===== INPUTS ===== */
+
+input,select,textarea{
+    background:#1b1b1b;
+    border:1px solid #444;
+    border-radius:5px;
+    padding:8px;
+    color:white;
+    margin:5px 0;
+}
+
+input:focus,textarea:focus{
+    outline:none;
+    border-color:#d4af37;
+    box-shadow:0 0 6px rgba(212,175,55,0.5);
+}
+
+/* ===== COMANDO ===== */
+
+#command{
+    width:100%;
+    height:120px;
+    font-family:monospace;
+    font-size:14px;
+    padding:10px;
+    resize:vertical;
+}
+
+/* ===== LISTA DE REGLAS ===== */
+
+#rules li{
+    list-style:none;
+    background:#1a1a1a;
+    border:1px solid #333;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:6px;
+    transition:all 0.2s;
+}
+
+#rules li:hover{
+    border-color:#d4af37;
+    box-shadow:0 0 8px rgba(212,175,55,0.3);
+}
+
+/* ===== RANKING ===== */
+
+#giftRanking li{
+    list-style:none;
+    padding:6px;
+    border-bottom:1px solid #333;
+}
+
+/* ===== SCROLLBAR DARK ===== */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#444;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#666;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "tiktok-minecraft-panel",
+  "version": "1.0.0",
+  "description": "Panel para conectar TikTok LIVE con Minecraft usando RCON",
+  "author": "Luis",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "rcon-client": "*",
+    "tiktok-live-connector": "^2.1.1-beta1"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^26.8.1"
+  },
+  "build": {
+    "appId": "minecraft.tiktok.panel",
+    "productName": "Minecraft TikTok Panel",
+    "win": {
+      "target": "portable"
+    }
+  }
+}

@@ -1,0 +1,321 @@
+[
+  {
+    "event": "share",
+    "amount": "1",
+    "command": "execute at @p run summon creeper ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\n\n",
+    "enabled": true
+  },
+  {
+    "event": "gift",
+    "amount": "Rosa",
+    "command": "execute at @p run summon mutantmore:rodling ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmore:rodling ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmore:rodling ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "gift",
+    "amount": "Confetti",
+    "command": "execute at @p run summon mutantmore:mutant_jungle_zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}"
+  },
+  {
+    "event": "gift",
+    "amount": "Corgi",
+    "command": "execute at @p run summon mutantmore:mutant_frozen_zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmore:mutant_frozen_zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\n",
+    "enabled": true
+  },
+  {
+    "event": "gift",
+    "amount": "Coral",
+    "command": "execute at @p run summon mutantmore:mutant_wither_skeleton ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmore:mutant_wither_skeleton ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}"
+  },
+  {
+    "event": "gift",
+    "amount": "Train",
+    "command": "execute at @p run summon mutantmore:mutant_hoglin ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}"
+  },
+  {
+    "event": "likecount",
+    "amount": "69000",
+    "command": "execute at @p run summon warden ~30 ~ ~",
+    "enabled": false
+  },
+  {
+    "event": "likecount",
+    "amount": "40000",
+    "command": "execute at @p run summon mutantmore:mutant_jungle_zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": false
+  },
+  {
+    "event": "likecount",
+    "amount": "500000",
+    "command": "execute at @p run summon mutantmore:mutant_hoglin ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": false
+  },
+  {
+    "event": "likecount",
+    "amount": "150000",
+    "command": "execute at @p run summon mutantmore:mutant_frozen_zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": false
+  },
+  {
+    "event": "likecount",
+    "amount": "300000",
+    "command": "execute at @p run summon mutantmore:mutant_wither_skeleton ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1} \nexecute at @p run summon mutantmore:mutant_wither_skeleton ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": false
+  },
+  {
+    "event": "sharecount",
+    "amount": "50000",
+    "command": "execute at @p run summon mutantmore:mutant_hoglin ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}"
+  },
+  {
+    "event": "sharecount",
+    "amount": "100",
+    "command": "execute at @p run summon mutantmore:mutant_frozen_zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "gift",
+    "amount": "Rose",
+    "command": "execute at @p run summon zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1,IsBaby:1b,HandItems:[{id:\"minecraft:stone_sword\",Count:1b},{}]}"
+  },
+  {
+    "event": "likeevery",
+    "amount": "700",
+    "command": "/give @p silence_s_defense_tower:cannon_level1_carriage 1\n/give @p minetraps:nail_trap 1",
+    "enabled": false
+  },
+  {
+    "event": "likeevery",
+    "amount": "20",
+    "command": "/give @p jeg:pistol_ammo 4",
+    "enabled": false
+  },
+  {
+    "event": "likeevery",
+    "amount": "20",
+    "command": "/give @p jeg:rifle_ammo 4",
+    "enabled": false
+  },
+  {
+    "event": "likeevery",
+    "amount": "20",
+    "command": "/give @p jeg:shotgun_shell 2",
+    "enabled": false
+  },
+  {
+    "event": "likeevery",
+    "amount": "20",
+    "command": "/give @p jeg:handmade_shell 1",
+    "enabled": false
+  },
+  {
+    "event": "likecount",
+    "amount": "300",
+    "command": "execute at @p run summon mutantmore:mutant_hoglin ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": false
+  },
+  {
+    "event": "gift",
+    "amount": "Hearts",
+    "command": "execute at @p run summon warden ~30 ~ ~",
+    "enabled": true
+  },
+  {
+    "event": "gift",
+    "amount": "Perfume",
+    "command": "execute at @p run summon zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',Attributes:[{Name:\"generic.max_health\",Base:40}],Health:40f,ArmorItems:[{id:\"minecraft:diamond_boots\",Count:1},{id:\"minecraft:diamond_leggings\",Count:1},{id:\"minecraft:diamond_chestplate\",Count:1},{id:\"minecraft:diamond_helmet\",Count:1}],HandItems:[{id:\"minecraft:iron_sword\",Count:1},{}]}",
+    "enabled": true
+  },
+  {
+    "event": "likeevery",
+    "amount": "20",
+    "command": "/give @p minecraft:echo_shard 2",
+    "enabled": false
+  },
+  {
+    "event": "likeevery",
+    "amount": "200",
+    "command": "execute at @p run summon zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\n\n\n",
+    "enabled": false
+  },
+  {
+    "event": "follow",
+    "amount": "1",
+    "command": "execute at @p run summon creeper ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "share",
+    "amount": "1",
+    "command": "execute at @p run summon creeper ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likeevery",
+    "amount": "2000",
+    "command": "execute at @p run summon mutantmonsters:spider_pig ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1} \n",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "50000",
+    "command": "execute at @p run summon mutantmore:mutant_shulker ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "10000",
+    "command": "execute at @p run summon mowziesmobs:ferrous_wroughtnaut ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "20000",
+    "command": "execute at @p run summon mutantmonsters:mutant_zombie ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "30000",
+    "command": "execute at @p run summon mowziesmobs:frostmaw ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\n",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "40000",
+    "command": "execute at @p run summon mutantmonsters:mutant_skeleton ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "50000",
+    "command": "execute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmonsters:mutant_creeper ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "60000",
+    "command": "execute at @p run summon mutantmonsters:mutant_creeper ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmonsters:mutant_creeper ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "70000",
+    "command": "execute at @p run summon mutantmonsters:mutant_enderman ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmonsters:mutant_enderman ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "80000",
+    "command": "execute at @p run summon mutantmore:mutant_jungle_zombie ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "90000",
+    "command": "execute at @p run summon mutantmore:mutant_blaze ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "100000",
+    "command": "execute at @p run summon mutantmore:mutant_wither_skeleton ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "110000",
+    "command": "execute at @p run summon mutantmore:mutant_frozen_zombie ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "120000",
+    "command": "execute at @p run summon mowziesmobs:umvuthi ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "130000",
+    "command": "execute at @p run summon mutantmore:mutant_husk ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "140000",
+    "command": "execute at @p run summon mutantmore:mutant_shulker ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "150000",
+    "command": "execute at @p run summon mowziesmobs:sculptor ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "170000",
+    "command": "execute at @p run summon mutantmore:mutant_hoglin ~20 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likeevery",
+    "amount": "2000",
+    "command": "/give @p minecraft:golden_apple",
+    "enabled": true
+  },
+  {
+    "event": "sharecount",
+    "amount": "30",
+    "command": "execute at @p run summon mutantmonsters:mutant_zombie ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "sharecount",
+    "amount": "200",
+    "command": "execute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1} execute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1} execute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "sharecount",
+    "amount": "400",
+    "command": "execute at @p run summon mutantmonsters:mutant_creeper ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "sharecount",
+    "amount": "500",
+    "command": "execute at @p run summon mutantmonsters:mutant_enderman ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "sharecount",
+    "amount": "700",
+    "command": "execute at @p run summon mutantmore:mutant_frozen_zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmore:mutant_frozen_zombie ~30 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "sharecount",
+    "amount": "1000",
+    "command": "execute at @p run summon mutantmonsters:mutant_enderman ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmonsters:mutant_enderman ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "sharecount",
+    "amount": "1200",
+    "command": "execute at @p run summon mutantmonsters:mutant_skeleton ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmonsters:mutant_skeleton ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "likecount",
+    "amount": "50000",
+    "command": "execute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mowziesmobs:naga ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}\nexecute at @p run summon mutantmonsters:mutant_creeper ~10 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  },
+  {
+    "event": "sharecount",
+    "amount": "1500",
+    "command": "execute at @p run summon mutantmore:mutant_shulker ~15 ~ ~ {CustomName:'{\"text\":\"{user}\"}',CustomNameVisible:1}",
+    "enabled": true
+  }
+]

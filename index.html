@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Minecraft TikTok Control Panel</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Minecraft TikTok Control Panel</h1>
+<hr>
+
+<h2>Estado</h2>
+
+<div>
+Minecraft:
+<button id="mcStatus">🔴 Desconectado</button>
+<button id="connectMC">Conectar Minecraft</button>
+</div>
+
+<br>
+
+<div>
+TikTok:
+<input id="ttuser" placeholder="usuario_tiktok">
+<button id="connectTT">Conectar TikTok</button>
+</div>
+
+<br>
+
+<div>
+❤️ Likes Totales:
+<span id="likeCounter">0</span>
+</div>
+
+<br>
+
+<div>
+🔁 Shares Totales:
+<span id="shareCounter">0</span>
+</div>
+
+<hr>
+
+<h2>Logs</h2>
+
+<div id="log"></div>
+
+<hr>
+
+<h2>Control de Oleadas</h2>
+
+<button id="startWave">🌙 Iniciar oleada</button>
+<button id="stopWave">☀ Pausar oleada</button>
+<button id="pauseTimers">⏸ Pausar Timers</button>
+<button id="resumeTimers">▶ Reanudar Timers</button>
+
+<hr>
+
+<h2>Crear regla</h2>
+
+<div>
+
+Evento
+
+<br>
+
+<select id="event">
+<option value="likes">Likes</option>
+<option value="likecount">Meta Likes</option>
+<option value="likeevery">Cada X Likes</option>
+<option value="gift">Gift</option>
+<option value="giftcombo">Gift Combo</option>
+<option value="follow">Follow</option>
+<option value="share">Share</option>
+<option value="sharecount">Meta Shares</option>
+<option value="join">Join</option>
+<option value="timer">Timer</option>
+</select>
+
+</div>
+
+<br>
+
+<div>
+
+Cantidad / Gift
+
+<br>
+
+<input id="amount" placeholder="ej: 50 o Rose">
+
+</div>
+
+<br>
+
+<div>
+
+Comando Minecraft
+
+<br>
+
+<textarea id="command"></textarea>
+
+</div>
+
+<br>
+
+<button id="saveRule">Guardar regla</button>
+<button id="simulate">Simular evento</button>
+
+<hr>
+
+<h2>Spawn rápido</h2>
+
+<button id="spawnZombie">🧟 Zombie</button>
+<button id="spawnCreeper">💣 Creeper</button>
+<button id="spawnSkeleton">💀 Skeleton</button>
+
+<hr>
+
+<h2>Top Donadores</h2>
+
+<ol id="giftRanking"></ol>
+
+<hr>
+
+<h2>Reglas activas</h2>
+
+<ul id="rules"></ul>
+
+<hr>
+
+
+
+<script src="renderer.js"></script>
+
+</body>
+
+</html>
