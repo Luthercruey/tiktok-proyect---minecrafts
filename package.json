@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Panel para conectar TikTok LIVE con Minecraft usando RCON",
   "author": "Luis",
-  "main": "main.js",
+  "main": "src/main/main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"

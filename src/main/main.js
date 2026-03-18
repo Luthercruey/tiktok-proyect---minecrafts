@@ -12,7 +12,7 @@ contextIsolation: false
 }
 });
 
-win.loadFile("index.html");
+win.loadFile("src/renderer/index.html");
 
 }
 
